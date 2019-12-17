@@ -15,8 +15,8 @@ def res1():
 
 @app.route("/gg")
 def helloworld2():
-    return "Hello Flask World!" + getattr(g, "str", '111')
+    return "Hello Flask World " + getattr(g, "str", '111')
 
 @app.route("/")
 def helloworld():
-    return "Hello Flask World!"
+    return "Hello Flask World"
